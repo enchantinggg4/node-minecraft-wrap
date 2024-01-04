@@ -1,6 +1,6 @@
 {
-  "name": "minecraft-wrap",
-  "version": "1.5.1",
+  "name": "minecraft-wrap-fabric",
+  "version": "1.5.2",
   "description": "Download and wrap the vanilla minecraft server in node.js",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrismarineJS/node-minecraft-wrap.git"
+    "url": "git+https://github.com/PrismarineJS/node-minecraft-wrap.git"
   },
   "keywords": [
     "minecraft",
@@ -37,7 +37,7 @@
     "minecraft-folder-path": "^1.1.0",
     "mkdirp": "^0.5.1",
     "mz": "^2.7.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.7.0",
     "promise-queue": "^2.2.5",
     "rimraf": "^3.0.2",
     "yggdrasil": "^1.1.1"
@@ -47,7 +47,13 @@
     "standard": "^17.0.0"
   },
   "bin": {
-    "downloadMinecraft": "./examples/exampleDownload.js",
-    "runMinecraft": "./examples/exampleWrapClient.js"
+    "downloadMinecraft": "examples/exampleDownload.js",
+    "runMinecraft": "examples/exampleWrapClient.js"
+  },
+  "homepage": "https://github.com/PrismarineJS/node-minecraft-wrap#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
